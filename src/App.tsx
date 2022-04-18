@@ -86,7 +86,7 @@ function App() {
               autoHideDuration={6000}
               onClose={alertClose}
             >
-              <Alert severity="success" color="info" onClose={alertClose}>Copied clipboard!</Alert>
+              <Alert severity="success" color="info" onClose={alertClose}>Copied to clipboard!</Alert>
             </Snackbar>
           </Box>
         </ThemeProvider>
